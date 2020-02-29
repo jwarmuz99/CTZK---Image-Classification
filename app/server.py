@@ -9,10 +9,13 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/file/d/1T6hLSqj_UsewOeduxeXdVY3Hl7YU_hX7/view?usp=sharing'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Adidas_NMD','Adidas_Yeezy_Boost_350', 'Converse_Chuck_Taylor_All_Star', 
+           'Fila_Disruptor', 'New_Balance_574', 'Nike_Air_Force_1', 'Nike_Air_Jordan_1', 
+           'Nike_Air_Jordan_11', 'Nike_Air_Max_90', 'Nike_Air_Max_Plus_Tn', 'Nike_Cortez', 
+           'Nike_Huarache', 'Nike_Vapor_Max', 'Reebok_Classic_Leather', 'Vans']
 path = Path(__file__).parent
 
 app = Starlette()
