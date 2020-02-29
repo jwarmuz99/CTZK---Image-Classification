@@ -1,5 +1,5 @@
 body {
-    background-color: #2A2D2C;
+    background-color: #222222;
 }
 
 .no-display {
@@ -22,6 +22,7 @@ body {
 
 .content {
     margin-top: 10em;
+    color: #F7F7F7;
 }
 
 .analyze {
@@ -36,14 +37,15 @@ body {
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 13px;
+    font-size: 16px;
+    color: #F7F7F7;
 }
 
 button.choose-file-button {
     width: 200px;
     height: 40px;
     border-radius: 2px;
-    background-color: #2A2D2C;
+    background-color: #222222;
     border: solid 1px #67E0AD;
     font-size: 13px;
     color: #67E0AD;
@@ -54,7 +56,7 @@ button.analyze-button {
     height: 40px;
     border: solid 1px #67E0AD;
     border-radius: 2px;
-    background-color: #2A2D2C;
+    background-color: #222222;
     font-size: 13px;
     color: #67E0AD;
 }
