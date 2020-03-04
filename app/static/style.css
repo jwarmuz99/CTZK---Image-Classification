@@ -25,6 +25,11 @@ body {
     color: #F7F7F7;
 }
 
+.content {
+    margin-top: 10em;
+    color: #F7F7F7;
+}
+
 .analyze {
     margin-top: 5em;
 }
