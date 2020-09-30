@@ -1,5 +1,7 @@
 body {
     background-color: #222222;
+    font-family:"Montserrat";
+    color: #F7F7F7;
 }
 
 .no-display {
@@ -14,20 +16,25 @@ body {
 }
 
 .title {
-    font-size: 30px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: #F7F7F7;
+    font-size: 80px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+   
+}
+.projectDesc
+{
+    width:50%;
+    margin:auto;
+    font-size:16px;
+}
+.content {
+    margin-top: 10em;
+
 }
 
 .content {
-    margin-top: 10em;
-    color: #F7F7F7;
-}
+    margin-top: 5em;
 
-.content {
-    margin-top: 10em;
-    color: #F7F7F7;
 }
 
 .analyze {
@@ -36,7 +43,7 @@ body {
 
 .upload-label {
     padding: 10px;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 .result-label {
@@ -47,25 +54,44 @@ body {
 }
 
 button.choose-file-button {
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 60px;
     border-radius: 2px;
     background-color: #222222;
     border: solid 1px #67E0AD;
-    font-size: 13px;
+    font-size: 22px;
     color: #67E0AD;
 }
 
 button.analyze-button {
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 60px;
     border: solid 1px #67E0AD;
     border-radius: 2px;
     background-color: #222222;
-    font-size: 13px;
+    font-size: 22px;
     color: #67E0AD;
 }
 
 button:focus {
     outline: 0;
+}
+.bottomMeDesc
+{
+    margin-top:50px;
+    font-size:16px;
+    width:30%;
+    margin:auto;
+}
+.refHolder
+{
+    
+    text-align:left;
+    width:fit-content;
+    margin:auto;
+    margin-top:30px;
+}
+.refHolder a
+{
+    color:#67E0AD
 }
