@@ -1,15 +1,9 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# Sneakers model prediction using Convolutional Neural Network 
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+Implementaton of CNN on a real life dataset with the use of [fast.ai](fast.ai) library. 
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
+The model was deployed online and can be accessed [here](https://ctzk.onrender.com/). It was trained on the web scraped images of 15 types of sneakers, such as Nike Air Force 1, Air Jordan 11 or Yeezy Boost 350. Pytorch's pre-trained ResNet34 was used, and the error rate of 0.1 on the validation set was achieved. 
 
-You can test your changes locally by installing Docker and using the following command:
+Play around with the website by selecting an image to upload and clicking 'analyze'
 
-```
-docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
-```
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
-
-Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
+Next iterations of the project would involve adding more sneaker types and developing a more sophisticated way to handle the unknown ones.
